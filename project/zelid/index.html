@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        body {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,8 +32,7 @@
     <nav class="uk-position-relative uk-navbar-container">
         <div class="uk-container">
             <div uk-navbar class="uk-visible@s">
-                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                        width="100"></a>
+                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 <ul class="uk-navbar-nav">
                     <li><a href="./zel/">Currency</a></li>
                     <li><a href="./project/zelcore/">Zel<span>Core</span></a></li>
@@ -39,8 +43,7 @@
             </div>
             <div uk-navbar="boundary-align: true; align: left; dropbar: true" class="uk-hidden@s">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                            width="100"></a>
+                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
@@ -85,7 +88,8 @@
         <div class="uk-position-top">
             <div class="subnav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
                 <nav class="uk-navbar-container">
-                    <div class="uk-container uk-padding-remove" uk-navbar="boundary-align: true; align: left; dropbar: true">
+                    <div class="uk-container uk-padding-remove"
+                        uk-navbar="boundary-align: true; align: left; dropbar: true">
                         <div class="uk-navbar-left pl-15">
                             <ul class="uk-navbar-nav">
                                 <li><a href="#"><img src="./img/ZelID-Txt.svg" width="120"></a></li>
@@ -127,7 +131,8 @@
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="uk-background-muted uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large">
+    <section id="about"
+        class="uk-background-muted uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large">
         <div class="uk-container">
             <div class="uk-grid-collapse uk-grid" uk-grid>
                 <div class="uk-width-expand@m uk-first-column">
@@ -153,7 +158,7 @@
         <div class="uk-container">
             <h1 class="uk-heading-primary uk-text-center">Features</h1>
             <h4 class="uk-text-center">
-            d2FA might be one of the cooler things we have released : )
+                d2FA might be one of the cooler things we have released : )
             </h4>
             <div class="uk-grid-large uk-grid-margin-large uk-grid" uk-grid>
                 <div class="uk-grid-item-match uk-flex-middle uk-width-large@m uk-first-column">
@@ -169,32 +174,39 @@
                                     <div class="uk-panel uk-margin-remove-first-child">
                                         <span uk-icon="icon: lock; ratio: 2"></span>
                                         <h3 class="uk-h4 uk-margin-top uk-margin-remove-bottom">d2FA</h3>
-                                        <div class="uk-margin-top">Decentralized Two Factor Authentication. It's all said in the name.
-                                        An extra layer of security without the requirement to trust anyone. d2FA empowers you to be your own
-                                        custodian and keep you safe from centralized database breaches and attacks.</div>
+                                        <div class="uk-margin-top">Decentralized Two Factor Authentication. It's all
+                                            said in the name.
+                                            An extra layer of security without the requirement to trust anyone. d2FA
+                                            empowers you to be your own
+                                            custodian and keep you safe from centralized database breaches and attacks.
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="uk-panel uk-margin-remove-first-child">
                                         <span uk-icon="icon: sign-in; ratio: 2"></span>
                                         <h3 class="uk-h4 uk-margin-top uk-margin-remove-bottom">Easy Login</h3>
-                                        <div class="uk-margin-top">Create an Easy Login credential separate from your username and password
-                                        to conveniently access your account via device biometrics (fingerprint/iris) or user-selected pass phrase.</div>
+                                        <div class="uk-margin-top">Create an Easy Login credential separate from your
+                                            username and password
+                                            to conveniently access your account via device biometrics (fingerprint/iris)
+                                            or user-selected pass phrase.</div>
                                     </div>
                                 </div>
                                 <div class="uk-grid-margin uk-first-column">
                                     <div class="el-item uk-panel uk-margin-remove-first-child">
                                         <span uk-icon="icon: commenting; ratio: 2"></span>
                                         <h3 class="uk-h4 uk-margin-top uk-margin-remove-bottom">Message Signing</h3>
-                                        <div class="uk-margin-top">Generate messages signed by your Zel private key to prove your identity as the sender to the message receiver.</div>
+                                        <div class="uk-margin-top">Generate messages signed by your Zel private key to
+                                            prove your identity as the sender to the message receiver.</div>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="uk-panel uk-margin-remove-first-child">
                                         <span uk-icon="icon: world; ratio: 2"></span>
                                         <h3 class="uk-h4 uk-margin-top uk-margin-remove-bottom">Passport</h3>
-                                        <div class="uk-margin-top">Grant identity access to other services, don't leak your private 1's & 0's. Revoke access when needed. It's
-                                        that simple.</div>
+                                        <div class="uk-margin-top">Grant identity access to other services, don't leak
+                                            your private 1's & 0's. Revoke access when needed. It's
+                                            that simple.</div>
                                     </div>
                                 </div>
                             </div>
@@ -260,7 +272,15 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-
+    <script>
+        /* PREVENT CLICKJACKING */
+        if (self == top) {
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.style.display = "block";
+        } else {
+            top.location = self.location;
+        }
+    </script>
 </body>
 
 </html>

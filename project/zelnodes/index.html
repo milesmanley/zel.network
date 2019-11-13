@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        body {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,8 +32,7 @@
     <nav class="uk-position-relative uk-navbar-container">
         <div class="uk-container">
             <div uk-navbar class="uk-visible@s">
-                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                        width="100"></a>
+                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 <ul class="uk-navbar-nav">
                     <li><a href="./zel/">Currency</a></li>
                     <li><a href="./project/zelcore/">Zel<span>Core</span></a></li>
@@ -39,8 +43,7 @@
             </div>
             <div uk-navbar="boundary-align: true; align: left; dropbar: true" class="uk-hidden@s">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                            width="100"></a>
+                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
@@ -61,7 +64,7 @@
             </div>
         </div>
     </nav>
-    
+
     <!-- HERO -->
     <div class="uk-position-relative">
         <div class="uk-visible-toggle" tabindex="-1" uk-slideshow="min-height: 100; max-height: 300"
@@ -69,7 +72,8 @@
             <ul class="uk-slideshow-items">
                 <li class="zelnodescolor">
                     <div class="uk-position-center uk-position-small uk-text-center uk-margin-medium-top uk-light">
-                        <h1 class="uk-margin-remove">Scalable, <span class="zel">decentralized</span> computational network</h1>
+                        <h1 class="uk-margin-remove">Scalable, <span class="zel">decentralized</span> computational
+                            network</h1>
                     </div>
                 </li>
             </ul>
@@ -85,7 +89,8 @@
         <div class="uk-position-top">
             <div class="subnav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
                 <nav class="uk-navbar-container">
-                    <div class="uk-container uk-padding-remove" uk-navbar="boundary-align: true; align: left; dropbar: true">
+                    <div class="uk-container uk-padding-remove"
+                        uk-navbar="boundary-align: true; align: left; dropbar: true">
                         <div class="uk-navbar-left pl-15">
                             <ul class="uk-navbar-nav">
                                 <li><a href="#"><img src="./img/ZelNodes-Txt.svg" width="120"></a></li>
@@ -94,7 +99,8 @@
                         <div class="uk-navbar-right pr-15 uk-visible@s">
                             <ul class="uk-navbar-nav">
                                 <li><a href="https://dashboard.zel.network/" target="_blank">Network Dashboard</a></li>
-                                <li><a href="https://dashboard.zel.network/d/4IEYxx9iz/zelnodes-pricing-data?orgId=1" target="_blank"> Pricing & Rewards</a></li>
+                                <li><a href="https://dashboard.zel.network/d/4IEYxx9iz/zelnodes-pricing-data?orgId=1"
+                                        target="_blank"> Pricing & Rewards</a></li>
                                 <li><a href="#tiers" uk-scroll>Tiers</a></li>
                             </ul>
                         </div>
@@ -104,7 +110,8 @@
                                     <a class="uk-navbar-toggle" uk-icon="icon: chevron-down" href="#"></a>
                                     <div class="uk-navbar-dropdown">
                                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                                            <li><a href="https://dashboard.zel.network/" target="_blank">Dashboard</a></li>
+                                            <li><a href="https://dashboard.zel.network/" target="_blank">Dashboard</a>
+                                            </li>
                                             <li><a href="#tiers" uk-scroll>Tiers</a></li>
                                         </ul>
                                     </div>
@@ -118,17 +125,22 @@
     </div>
 
     <!-- ABOUT -->
-    <section id="about" class="uk-background-muted uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large">
+    <section id="about"
+        class="uk-background-muted uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large">
         <div class="uk-container">
             <div class="uk-grid-collapse uk-grid" uk-grid>
                 <div class="uk-width-expand@m uk-first-column">
                     <h1 class="uk-heading-primary uk-text-center">What are <span class="zel">zel</span>Nodes?</h1>
-                    <div class="uk-margin-medium uk-width-large uk-margin-auto uk-text-center">ZelNode operators supply dedicated computing power, which generates rewards in Zel for powering the 
-                    network. There are multiple options for supplying computing power, including renting from a VPS provider, renting a dedicated server 
-                    to host multiple ZelNodes, or purchasing a server outright and hosting it in a data center or well-equipped home/office.</div>
+                    <div class="uk-margin-medium uk-width-large uk-margin-auto uk-text-center">ZelNode operators supply
+                        dedicated computing power, which generates rewards in Zel for powering the
+                        network. There are multiple options for supplying computing power, including renting from a VPS
+                        provider, renting a dedicated server
+                        to host multiple ZelNodes, or purchasing a server outright and hosting it in a data center or
+                        well-equipped home/office.</div>
                     <div class="uk-margin-small uk-text-center">
                         <a href="https://zel.gitbook.io/zelnodes/" target="_blank">
-                            <button class="uk-button zelnodescolor rounded uk-margin-top">Set Up Your Own ZelNode</button>
+                            <button class="uk-button zelnodescolor rounded uk-margin-top">Set Up Your Own
+                                ZelNode</button>
                         </a>
                     </div>
                     <div class="uk-margin-small uk-text-center">
@@ -137,7 +149,8 @@
                         </a>
                     </div>
                     <div class="uk-margin-small uk-text-center">
-                        <a href="https://dashboard.zel.network/d/4IEYxx9iz/zelnodes-pricing-data?orgId=1" target="_blank">
+                        <a href="https://dashboard.zel.network/d/4IEYxx9iz/zelnodes-pricing-data?orgId=1"
+                            target="_blank">
                             <button class="uk-button zelnodescolor rounded uk-margin-top">Operator Rewards</button>
                         </a>
                     </div>
@@ -225,18 +238,21 @@
             <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                 <div class="uk-width-1-1@m uk-first-column">
                     <h1 class="uk-heading-primary uk-text-center"><span class="zel">Reward</span> Structure</h1>
-                    <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">The block reward is split 75% POW / 25% ZelNode operators, for each and every block. 
-                    The rewards for ZelNode ownership are designed to be stable with a sustainable ROI.</div>
+                    <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">The block reward is split 75%
+                        POW / 25% ZelNode operators, for each and every block.
+                        The rewards for ZelNode ownership are designed to be stable with a sustainable ROI.</div>
                 </div>
             </div>
             <div class="uk-grid-margin uk-grid" uk-grid>
                 <div class="uk-grid-item-match uk-flex-middle uk-width-expand@m uk-first-column">
                     <div class="uk-panel">
-                        <div class="uk-panel uk-margin-remove-first-child uk-margin uk-width-medium uk-margin-auto uk-text-center">
+                        <div
+                            class="uk-panel uk-margin-remove-first-child uk-margin uk-width-medium uk-margin-auto uk-text-center">
                             <h3>BAMF</h3>
                             <p>1 Node receives 22.5 Zel per blockfind</p>
                         </div>
-                        <div class="uk-panel uk-margin-remove-first-child uk-margin-large uk-width-medium uk-margin-auto uk-text-center">
+                        <div
+                            class="uk-panel uk-margin-remove-first-child uk-margin-large uk-width-medium uk-margin-auto uk-text-center">
                             <h3>Super</h3>
                             <p>1 Node receives 9.375 Zel per blockfind</p>
                         </div>
@@ -251,11 +267,13 @@
                 </div>
                 <div class="uk-grid-item-match uk-flex-middle uk-width-expand@m">
                     <div class="uk-panel">
-                        <div class="uk-panel uk-margin-remove-first-child uk-margin-large uk-width-medium uk-margin-auto uk-text-center">
+                        <div
+                            class="uk-panel uk-margin-remove-first-child uk-margin-large uk-width-medium uk-margin-auto uk-text-center">
                             <h3>Basic</h3>
                             <p>1 Node receives 5.625 Zel per blockfind</p>
                         </div>
-                        <div class="uk-panel uk-margin-remove-first-child uk-margin uk-width-medium uk-margin-auto uk-text-center">
+                        <div
+                            class="uk-panel uk-margin-remove-first-child uk-margin uk-width-medium uk-margin-auto uk-text-center">
                             <h3>POW</h3>
                             <p>Miners receive 75% of the blockfind for securing the Zel chain.</p>
                         </div>
@@ -271,7 +289,10 @@
             <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                 <div class="uk-width-1-1@m uk-first-column">
                     <h1 class="uk-heading-primary uk-text-center">Details</h1>
-                    <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">Note: The monthly cost to either rent or run dedicated hardware is significantly higher than earlier projects' masternodes and should be researched thoroughly by a potential node operator. ZelNodes do much more than simply validate transactions.</div>
+                    <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">Note: The monthly cost to
+                        either rent or run dedicated hardware is significantly higher than earlier projects' masternodes
+                        and should be researched thoroughly by a potential node operator. ZelNodes do much more than
+                        simply validate transactions.</div>
                 </div>
             </div>
             <div class="uk-grid-large uk-margin-large uk-grid" uk-grid>
@@ -281,9 +302,12 @@
                         <h3>Hundreds of Nodes at launch</h3>
                         <p>Over 1,000 highly-available ZelNodes on the network.</p>
                         <h3>Nodes will power future dApps, Smart Contracts, Sidechains & Asset layers</h3>
-                        <a href="https://medium.com/@ZelOfficial/zelnodes-dates-specs-network-upgrade-payout-cycles-et-al-8c5b84fbbf70" target="_blank">ZelNodes Technical Information</a><br><br>
-                        <a href="https://medium.com/@ZelOfficial/how-zelnodes-help-secure-the-zel-network-5a19f700d4ed" target="_blank">How ZelNodes secure the Zel Network</a><br><br>
-                        <a href="https://medium.com/@ZelOfficial/zelnodes-the-decentralized-scalable-high-availability-computing-network-57c1b4245fbd" target="_blank">ZelNodes Announcement Post</a>
+                        <a href="https://medium.com/@ZelOfficial/zelnodes-dates-specs-network-upgrade-payout-cycles-et-al-8c5b84fbbf70"
+                            target="_blank">ZelNodes Technical Information</a><br><br>
+                        <a href="https://medium.com/@ZelOfficial/how-zelnodes-help-secure-the-zel-network-5a19f700d4ed"
+                            target="_blank">How ZelNodes secure the Zel Network</a><br><br>
+                        <a href="https://medium.com/@ZelOfficial/zelnodes-the-decentralized-scalable-high-availability-computing-network-57c1b4245fbd"
+                            target="_blank">ZelNodes Announcement Post</a>
                     </div>
                 </div>
                 <div class="uk-width-expand@m">
@@ -292,7 +316,9 @@
                         <p><a href="https://www.digitalocean.com" target="_blank">DigitalOcean</a></p>
                         <h3>Support via Discord for Node operators</h3>
                         <h3>Benchmarking must meet minimum specs, uptime requirement: > 97%</h3>
-                        <p>Benchmarking will be performed per tier and based on results from the equivalently-spec'd DigitalOcean Droplet for the specs <a href="#tiers" uk-scroll>above</a>. Uptime requirement allows for ~ 40 minutes downtime per day for maintenance, unforseen issues, etc.</p>
+                        <p>Benchmarking will be performed per tier and based on results from the equivalently-spec'd
+                            DigitalOcean Droplet for the specs <a href="#tiers" uk-scroll>above</a>. Uptime requirement
+                            allows for ~ 40 minutes downtime per day for maintenance, unforseen issues, etc.</p>
                     </div>
                 </div>
             </div>
@@ -354,7 +380,15 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-
+    <script>
+        /* PREVENT CLICKJACKING */
+        if (self == top) {
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.style.display = "block";
+        } else {
+            top.location = self.location;
+        }
+    </script>
 </body>
 
 </html>

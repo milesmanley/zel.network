@@ -17,8 +17,14 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        body {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,8 +32,7 @@
     <nav class="uk-position-relative uk-navbar-container">
         <div class="uk-container">
             <div uk-navbar class="uk-visible@s">
-                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                        width="100"></a>
+                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 <ul class="uk-navbar-nav">
                     <li><a href="./zel/">Currency</a></li>
                     <li><a href="./project/zelcore/">Zel<span>Core</span></a></li>
@@ -38,8 +43,7 @@
             </div>
             <div uk-navbar="boundary-align: true; align: left; dropbar: true;" class="uk-hidden@s">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                            width="100"></a>
+                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
@@ -62,12 +66,15 @@
         <!-- SUBNAV -->
         <div class="uk-position-relative onTop">
             <div class="uk-position-top">
-                <div class="subnav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
+                <div class="subnav"
+                    uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
                     <nav class="uk-navbar-container">
-                        <div class="uk-container uk-padding-remove" uk-navbar="boundary-align: true; align: left; dropbar: true">
+                        <div class="uk-container uk-padding-remove"
+                            uk-navbar="boundary-align: true; align: left; dropbar: true">
                             <div class="uk-navbar-left pl-15">
                                 <ul class="uk-navbar-nav">
-                                    <li><a href="./project/zelcore/"><img src="./img/ZelCore-Txt.svg" width="120"></a></li>
+                                    <li><a href="./project/zelcore/"><img src="./img/ZelCore-Txt.svg" width="120"></a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="uk-navbar-right pr-15 uk-visible@s">
@@ -77,7 +84,9 @@
                                     <li><a href="./project/zelcore/#roadmap">Roadmap</a></li>
                                     <li><a href="./project/zelcore/#support">Support</a></li>
                                     <li><a href="./project/zelcore/#getlisted">Get Listed</a></li>
-                                    <li><a href="./project/zelcore/zelcore+.html"><button class="uk-button uk-button-small zelcoreblack rounded">ZelCore+</button></a></li>
+                                    <li><a href="./project/zelcore/zelcore+.html"><button
+                                                class="uk-button uk-button-small zelcoreblack rounded">ZelCore+</button></a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="uk-navbar-right pr-15 uk-hidden@s">
@@ -92,21 +101,24 @@
                                                 <li><a href="./project/zelcore/#support">Support</a></li>
                                                 <li><a href="./project/zelcore/#getlisted">Get Listed</a></li>
                                             </ul>
-                                            <li><a href="./project/zelcore/zelcore+.html"><button class="uk-button uk-button-small zelcoreblack rounded">ZelCore+</button></a></li>
-                                        </div>
+                                    <li><a href="./project/zelcore/zelcore+.html"><button
+                                                class="uk-button uk-button-small zelcoreblack rounded">ZelCore+</button></a>
                                     </li>
-                                </ul>
                             </div>
+                            </li>
+                            </ul>
                         </div>
-                    </nav>
                 </div>
-            </div>
-        </div>
+    </nav>
+    </div>
+    </div>
+    </div>
     </nav>
 
     <!-- HERO -->
     <div id="hero" class="uk-position-relative">
-        <div class="zelcoreblack uk-section uk-flex uk-flex-middle uk-light" uk-height-viewport="offset-top: true; min-height: 730">
+        <div class="zelcoreblack uk-section uk-flex uk-flex-middle uk-light"
+            uk-height-viewport="offset-top: true; min-height: 730">
             <div class="uk-width-1-1">
                 <div class="uk-container">
                     <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
@@ -114,20 +126,26 @@
                             <img class="uk-width-medium" src="./img/ZelCore-Txt-White.svg">
                             <div id="macOS" class="isDesktop">
                                 <h1 class="uk-heading-primary uk-text-center">macOS</h1>
-                                <a href="https://zelcore.io/downloads/zelcore.dmg"><button class="uk-button uk-button-primary rounded">Download</button></a>
+                                <a href="https://zelcore.io/downloads/zelcore.dmg"><button
+                                        class="uk-button uk-button-primary rounded">Download</button></a>
                             </div>
                             <div id="Windows" class="isDesktop">
                                 <h1 class="uk-heading-primary uk-text-center">Windows</h1>
-                                <a href="https://zelcore.io/downloads/zelcore.exe"><button class="uk-button uk-button-primary rounded">Download</button></a>
+                                <a href="https://zelcore.io/downloads/zelcore.exe"><button
+                                        class="uk-button uk-button-primary rounded">Download</button></a>
                             </div>
                             <div id="Linux" class="isDesktop">
                                 <h1 class="uk-heading-primary uk-text-center">Linux</h1>
-                                <a href="#linuxbuilds" uk-toggle><button class="uk-button uk-button-primary rounded">Download</button></a>
+                                <a href="#linuxbuilds" uk-toggle><button
+                                        class="uk-button uk-button-primary rounded">Download</button></a>
                             </div>
                             <div class="uk-text-center uk-margin-medium zelcoreMobile isMobile">
-                                <a href="https://itunes.apple.com/us/app/zelcore/id1436296839?mt=8" target="_blank" id="iOS"><img src="./img/zelcore/badge-appstore.svg"></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.zelcash.zelcore" target="_blank" class="android"><img src="./img/zelcore/badge-googleplay.svg"></a>
-                                <a href="https://zelcore.io/downloads/zelcore-210-derived.apk" target="_blank" class="android"><img src="./img/zelcore/badge-directdownload.svg"></a>
+                                <a href="https://itunes.apple.com/us/app/zelcore/id1436296839?mt=8" target="_blank"
+                                    id="iOS"><img src="./img/zelcore/badge-appstore.svg"></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.zelcash.zelcore"
+                                    target="_blank" class="android"><img src="./img/zelcore/badge-googleplay.svg"></a>
+                                <a href="https://zelcore.io/downloads/zelcore-210-derived.apk" target="_blank"
+                                    class="android"><img src="./img/zelcore/badge-directdownload.svg"></a>
                             </div>
                             <h1 class="uk-h5"><a href="#downloads" uk-scroll>Other Platforms</a></h1>
                         </div>
@@ -136,7 +154,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="uk-position-relative" style="z-index:998">
         <div class="uk-position-absolute uk-position-center zelcorePosition uk-visible@s">
             <img class="desktopImg" src="./img/zelcore/Login.jpg">
@@ -145,47 +163,59 @@
             <img src="./img/zelcore/Login-Mobile.png">
         </div>
     </div>
-    
+
     <section class="uk-section whiteBackground uk-section-large uk-flex uk-flex-middle">
         <div class="uk-width-1-1">
             <div id="downloads" class="uk-container uk-margin-xlarge-top"></div>
             <div class="uk-container uk-margin-xlarge-top">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@m uk-first-column">
-                        <h1 class="uk-heading-primary uk-margin-medium uk-text-center">Other <span class="zel">platforms</span></h1>
+                        <h1 class="uk-heading-primary uk-margin-medium uk-text-center">Other <span
+                                class="zel">platforms</span></h1>
                         <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match uk-text-center" uk-grid>
                             <div>
                                 <div class="uk-card uk-card-hover uk-card-secondary uk-card-body">
                                     <h3 class="uk-card-title">macOS</h3>
                                     <p>Version: 2.2.7</p>
-                                    <a href="https://zelcore.io/downloads/zelcore.dmg"><button class="uk-button uk-button-primary rounded">Download</button></a>
+                                    <a href="https://zelcore.io/downloads/zelcore.dmg"><button
+                                            class="uk-button uk-button-primary rounded">Download</button></a>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-hover uk-card-secondary uk-card-body">
                                     <h3 class="uk-card-title">Windows</h3>
                                     <p>Version: 2.2.7</p>
-                                    <a href="https://zelcore.io/downloads/zelcore.exe"><button class="uk-button uk-button-primary rounded">Download (Install)</button></a>
-                                    <a href="https://zelcore.io/downloads/zelcore-portable.exe"><button class="uk-button uk-button-primary uk-margin-small-top rounded">Download (Portable)</button></a>
+                                    <a href="https://zelcore.io/downloads/zelcore.exe"><button
+                                            class="uk-button uk-button-primary rounded">Download (Install)</button></a>
+                                    <a href="https://zelcore.io/downloads/zelcore-portable.exe"><button
+                                            class="uk-button uk-button-primary uk-margin-small-top rounded">Download
+                                            (Portable)</button></a>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-hover uk-card-secondary uk-card-body">
                                     <h3 class="uk-card-title">Linux</h3>
                                     <p>Version: 2.2.7</p>
-                                    <a href="#linuxbuilds" uk-toggle><button class="uk-button uk-button-primary rounded">Linux Builds</button></a>
+                                    <a href="#linuxbuilds" uk-toggle><button
+                                            class="uk-button uk-button-primary rounded">Linux Builds</button></a>
                                 </div>
                             </div>
                         </div>
                         <div class="uk-text-center uk-margin-medium zelcoreMobile">
-                            <a href="https://itunes.apple.com/us/app/zelcore/id1436296839?mt=8" target="_blank"><img src="./img/zelcore/badge-appstore.svg" class="uk-margin"></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.zelcash.zelcore" target="_blank"><img src="./img/zelcore/badge-googleplay.svg" class="uk-margin"></a>
-                            <a href="https://zelcore.io/downloads/zelcore-210-derived.apk" target="_blank"><img src="./img/zelcore/badge-directdownload.svg" class="uk-margin"></a>
+                            <a href="https://itunes.apple.com/us/app/zelcore/id1436296839?mt=8" target="_blank"><img
+                                    src="./img/zelcore/badge-appstore.svg" class="uk-margin"></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.zelcash.zelcore"
+                                target="_blank"><img src="./img/zelcore/badge-googleplay.svg" class="uk-margin"></a>
+                            <a href="https://zelcore.io/downloads/zelcore-210-derived.apk" target="_blank"><img
+                                    src="./img/zelcore/badge-directdownload.svg" class="uk-margin"></a>
                         </div>
-                        <h1 class="uk-heading-primary uk-margin-medium uk-text-center"><span class="zel">More</span> info</h1>
+                        <h1 class="uk-heading-primary uk-margin-medium uk-text-center"><span class="zel">More</span>
+                            info</h1>
                         <div class="uk-text-center">
-                            <a href="#changes" uk-toggle><button class="uk-button zelcoreblack uk-margin-small-top rounded">Changes</button></a>
-                            <a href="#security" uk-toggle><button class="uk-button zelcoreblack uk-margin-small-top rounded">SHA256</button></a>
+                            <a href="#changes" uk-toggle><button
+                                    class="uk-button zelcoreblack uk-margin-small-top rounded">Changes</button></a>
+                            <a href="#security" uk-toggle><button
+                                    class="uk-button zelcoreblack uk-margin-small-top rounded">SHA256</button></a>
                         </div>
                     </div>
                 </div>
@@ -199,16 +229,23 @@
             <button class="uk-modal-close-default" type="button" uk-close></button>
             <h1>Linux Builds</h1>
             <h3>APT Repository</h3>
-            <a href="https://apt.zel.cash/" target="_blank"><button class="uk-button uk-button-secondary rounded">APT Repository</button></a>
+            <a href="https://apt.zel.cash/" target="_blank"><button class="uk-button uk-button-secondary rounded">APT
+                    Repository</button></a>
             <h3></h3>
-            <a href="https://zelcore.io/downloads/zelcore.AppImage"><button class="uk-button uk-button-secondary rounded">Linux .AppImage</button></a>
-            <a href="https://zelcore.io/downloads/zelcore.deb"><button class="uk-button uk-button-secondary rounded">Linux .deb</button></a>
+            <a href="https://zelcore.io/downloads/zelcore.AppImage"><button
+                    class="uk-button uk-button-secondary rounded">Linux .AppImage</button></a>
+            <a href="https://zelcore.io/downloads/zelcore.deb"><button
+                    class="uk-button uk-button-secondary rounded">Linux .deb</button></a>
             <h3>4x Kernel</h3>
-            <a href="https://zelcore.io/downloads/zelcore4x.AppImage"><button class="uk-button uk-button-secondary rounded">4x Kernel .AppImage</button></a>
-            <a href="https://zelcore.io/downloads/zelcore4x.deb"><button class="uk-button uk-button-secondary rounded">4x Kernel .deb</button></a>
+            <a href="https://zelcore.io/downloads/zelcore4x.AppImage"><button
+                    class="uk-button uk-button-secondary rounded">4x Kernel .AppImage</button></a>
+            <a href="https://zelcore.io/downloads/zelcore4x.deb"><button
+                    class="uk-button uk-button-secondary rounded">4x Kernel .deb</button></a>
             <h3>3x Kernel</h3>
-            <a href="https://zelcore.io/downloads/zelcore3x.AppImage"><button class="uk-button uk-button-secondary rounded">3x Kernel .AppImage</button></a>
-            <a href="https://zelcore.io/downloads/zelcore3x.deb"><button class="uk-button uk-button-secondary rounded">3x Kernel .deb</button></a>
+            <a href="https://zelcore.io/downloads/zelcore3x.AppImage"><button
+                    class="uk-button uk-button-secondary rounded">3x Kernel .AppImage</button></a>
+            <a href="https://zelcore.io/downloads/zelcore3x.deb"><button
+                    class="uk-button uk-button-secondary rounded">3x Kernel .deb</button></a>
         </div>
     </div>
 
@@ -216,7 +253,8 @@
         <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-text-center">
             <button class="uk-modal-close-default" type="button" uk-close></button>
             <h3>ZelCore v2.2.7 has following SHA256 hashes</h3>
-            <p>All ZelCore releases are signed by Zel Technologies GmbH. Furthermore we provide calculated SHA256 hashes of our releases</p>
+            <p>All ZelCore releases are signed by Zel Technologies GmbH. Furthermore we provide calculated SHA256 hashes
+                of our releases</p>
             <hr class="uk-divider-icon">
             <dl class="uk-description-list uk-description-list-divider">
                 <dt>zelcore.dmg</dt>
@@ -237,7 +275,7 @@
                 <dd>c964893778d4067a547da513eb31f079c5354ef95ce39cee417e7cda090a8080</dd>
             </dl>
             <hr class="uk-divider-icon">
-            <p>GPG Fingerprint: 4F7F EBBF 1BDD D239 7DAB  E2CF 4B69 CA27 A986 265D</p>
+            <p>GPG Fingerprint: 4F7F EBBF 1BDD D239 7DAB E2CF 4B69 CA27 A986 265D</p>
             <p>Zel Technologies GmbH (TD7JHAFH65)</p>
             <h4>Always check hashes and certificates prior running software.</h4>
         </div>
@@ -251,7 +289,8 @@
                 <h4>Features</h4>
                 <ul class="uk-list">
                     <li>VeriBlock (VBK) is now available</li>
-                    <li>CruxPay is now avaialble! Create your zel.crux CruxID and send funds easily to human-readable name</li>
+                    <li>CruxPay is now avaialble! Create your zel.crux CruxID and send funds easily to human-readable
+                        name</li>
                     <li>Portuguese language is now available</li>
                     <li>Adds possibility to customize shielding in Full Node</li>
                     <li>Ravencoin Asset list updated</li>
@@ -283,14 +322,15 @@
                 <ul class="uk-list">
                     <li>FullNode changes: ZelCore now has much better checks for running daemon process</li>
                     <li>FullNode changes: Address labels are now available</li>
-                    <li>FullNode changes: Maximum button for multiple receivers is now available on Zcash type coins</li>
+                    <li>FullNode changes: Maximum button for multiple receivers is now available on Zcash type coins
+                    </li>
                     <li>FullNode changes: Better logging and displaying of errors</li>
                     <li>FullNode changes: Added better checks for ip address in ZelNodes</li>
                     <li>FullNode changes: Simplifies and corrects ZelNode setup and its configuration file</li>
                     <li>Adds information about minimal claimable rewards</li>
                     <li>Ravencoin asset list updated</li>
                     <li>FullNode binaries updated for: BTC, ZEC, XSG, SAFE</li>
-                </ul>       
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.2.4 changes</h3>
@@ -307,10 +347,11 @@
                 <h4>Bugs fixes</h4>
                 <ul class="uk-list">
                     <li>Fixes maximum button on erc20 not working correctly in some rare scenarios</li>
-                    <li>Fixes rare scenarios of displaying wierd payment note in transaction history on ethereum network</li>
+                    <li>Fixes rare scenarios of displaying wierd payment note in transaction history on ethereum network
+                    </li>
                     <li>Fixes scenario of initial news on login screen not displaying correctly</li>
                     <li>Fixes not correctly updating buy amount in edge cases on quickswap exchanges</li>
-                </ul>        
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.2.3 changes</h3>
@@ -328,20 +369,21 @@
                 <h4>Bugs fixes</h4>
                 <ul class="uk-list">
                     <li>Fixes invalid dates and showing on explorer for CryptoWolf exchange history</li>
-                </ul>        
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.2.2 changes</h3>
                 <h4>Bugs fixes</h4>
                 <ul class="uk-list">
                     <li>Fixes sending of following coins: Sinovate (SIN), Digibyte (DGB) and Dogecoin (DOGE)</li>
-                </ul>        
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.2.1 changes</h3>
                 <h4>Features</h4>
                 <ul class="uk-list">
-                    <li>Merchcoins: Best Buy (GCBEST), Home Depot (GCHD), Lowes (GCLOWE), Starbucks (GCSTAR), Target (GCTGT), Walmart (GCWAL)</li>
+                    <li>Merchcoins: Best Buy (GCBEST), Home Depot (GCHD), Lowes (GCLOWE), Starbucks (GCSTAR), Target
+                        (GCTGT), Walmart (GCWAL)</li>
                     <li>Support for Snowgem (XSG) fork</li>
                 </ul>
                 <h4>Bugs fixes</h4>
@@ -349,7 +391,7 @@
                     <li>Fixes Zcoin fiat rate</li>
                     <li>Fixes Horizen (ZEN) occasionally not being able to be sent</li>
                     <li>Fixes maximum button on RVN assets</li>
-                </ul>        
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.2.0 changes</h3>
@@ -357,7 +399,8 @@
                 <ul class="uk-list">
                     <li>Neo network is now available with following assets: NEO, GAS, NEOFISH</li>
                     <li>Tron network is now available with TRON and BitTorrent (BTT) token</li>
-                    <li>It is now possible to easily toggle between selected fiat currency, BTC and privacy mode by clicking inside donut or asset balance</li>
+                    <li>It is now possible to easily toggle between selected fiat currency, BTC and privacy mode by
+                        clicking inside donut or asset balance</li>
                     <li>Optimised fiat handling</li>
                     <li>Minor tweaks</li>
                 </ul>
@@ -365,7 +408,7 @@
                 <ul class="uk-list">
                     <li>Horizen sending fixed</li>
                     <li>Minor fixes</li>
-                </ul>        
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.1.0 changes</h3>
@@ -379,7 +422,7 @@
                 <h4>Bugs fixes</h4>
                 <ul class="uk-list">
                     <li>Minor fixes</li>
-                </ul>        
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.0.8 changes</h3>
@@ -395,7 +438,7 @@
                 <h4>Bugs fixes</h4>
                 <ul class="uk-list">
                     <li>Minor fixes</li>
-                </ul>        
+                </ul>
             </div>
             <div>
                 <h3>ZelCore v2.0.7 changes</h3>
@@ -407,7 +450,7 @@
                 <h4>Bugs fixes</h4>
                 <ul class="uk-list">
                     <li>Fixes ZelCash full node binaries to current release v3.3.0</li>
-                </ul>        
+                </ul>
             </div>
         </div>
     </div>
@@ -467,6 +510,15 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <script>
+        /* PREVENT CLICKJACKING */
+        if (self == top) {
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.style.display = "block";
+        } else {
+            top.location = self.location;
+        }
+    </script>
     <!-- Check platform -->
     <script type="text/javascript">
         var macClass = document.getElementById('macOS');
@@ -477,25 +529,27 @@
         var mobileClass = document.querySelectorAll('.isMobile');
         var desktopClass = document.querySelectorAll('.isDesktop');
 
-        if (navigator.userAgent.match(/Macintosh/) || navigator.userAgent.match(/Windows/) || (navigator.userAgent.match(/Linux/) && !navigator.userAgent.match(/Android/i))) {
+        if (navigator.userAgent.match(/Macintosh/) || navigator.userAgent.match(/Windows/) || (navigator.userAgent
+                .match(/Linux/) && !navigator.userAgent.match(/Android/i))) {
             for (let index = 0; index < mobileClass.length; index++) {
                 mobileClass[index].classList.add('hidden');
             };
         }
         if (navigator.userAgent.match(/Macintosh/)) {
-            windowsClass.setAttribute('class','hidden');
-            linuxClass.setAttribute('class','hidden');
+            windowsClass.setAttribute('class', 'hidden');
+            linuxClass.setAttribute('class', 'hidden');
         }
         if (navigator.userAgent.match(/Windows/)) {
-            macClass.setAttribute('class','hidden');
-            linuxClass.setAttribute('class','hidden');
+            macClass.setAttribute('class', 'hidden');
+            linuxClass.setAttribute('class', 'hidden');
         }
         if (navigator.userAgent.match(/Linux/) && !navigator.userAgent.match(/Android/i)) {
-            macClass.setAttribute('class','hidden');
-            windowsClass.setAttribute('class','hidden');
+            macClass.setAttribute('class', 'hidden');
+            windowsClass.setAttribute('class', 'hidden');
         }
         //MOBILE
-        if (navigator.userAgent.match(/iPhone|iPad|iPod/i) || (navigator.userAgent.match(/Android/i) && navigator.userAgent.match(/Linux/))) {
+        if (navigator.userAgent.match(/iPhone|iPad|iPod/i) || (navigator.userAgent.match(/Android/i) && navigator
+                .userAgent.match(/Linux/))) {
             for (let index = 0; index < desktopClass.length; index++) {
                 desktopClass[index].classList.add('hidden');
             };
@@ -506,7 +560,7 @@
             };
         }
         if ((navigator.userAgent.match(/Android/i))) {
-            iosClass.setAttribute('class','hidden');
+            iosClass.setAttribute('class', 'hidden');
         }
     </script>
 

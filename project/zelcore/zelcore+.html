@@ -17,8 +17,14 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        body {
+            display: none;
+        }
+    </style>
 
     <!-- ScrollMagic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
@@ -29,8 +35,7 @@
     <nav class="uk-position-relative uk-navbar-container">
         <div class="uk-container">
             <div uk-navbar class="uk-visible@s">
-                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                        width="100"></a>
+                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 <ul class="uk-navbar-nav">
                     <li><a href="./zel/">Currency</a></li>
                     <li><a href="./project/zelcore/">Zel<span>Core</span></a></li>
@@ -41,8 +46,7 @@
             </div>
             <div uk-navbar="boundary-align: true; align: left; dropbar: true;" class="uk-hidden@s">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                            width="100"></a>
+                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
@@ -65,12 +69,15 @@
         <!-- SUBNAV -->
         <div class="uk-position-relative onTop">
             <div class="uk-position-top">
-                <div class="subnav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
+                <div class="subnav"
+                    uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
                     <nav class="uk-navbar-container">
-                        <div class="uk-container uk-padding-remove" uk-navbar="boundary-align: true; align: left; dropbar: true">
+                        <div class="uk-container uk-padding-remove"
+                            uk-navbar="boundary-align: true; align: left; dropbar: true">
                             <div class="uk-navbar-left pl-15">
                                 <ul class="uk-navbar-nav">
-                                    <li><a href="./project/zelcore/"><img src="./img/ZelCore-Txt.svg" width="120"></a></li>
+                                    <li><a href="./project/zelcore/"><img src="./img/ZelCore-Txt.svg" width="120"></a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="uk-navbar-right pr-15 uk-visible@s">
@@ -80,7 +87,9 @@
                                     <li><a href="./project/zelcore/#roadmap">Roadmap</a></li>
                                     <li><a href="./project/zelcore/#support">Support</a></li>
                                     <li><a href="./project/zelcore/#getlisted">Get Listed</a></li>
-                                    <li><a href="./project/zelcore/download.html"><button class="uk-button uk-button-small zelcoreblack rounded">Download</button></a></li>
+                                    <li><a href="./project/zelcore/download.html"><button
+                                                class="uk-button uk-button-small zelcoreblack rounded">Download</button></a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="uk-navbar-right pr-15 uk-hidden@s">
@@ -95,21 +104,24 @@
                                                 <li><a href="./project/zelcore/#support">Support</a></li>
                                                 <li><a href="./project/zelcore/#getlisted">Get Listed</a></li>
                                             </ul>
-                                            <li><a href="./project/zelcore/download.html"><button class="uk-button uk-button-small zelcoreblack rounded">Download</button></a></li>
-                                        </div>
+                                    <li><a href="./project/zelcore/download.html"><button
+                                                class="uk-button uk-button-small zelcoreblack rounded">Download</button></a>
                                     </li>
-                                </ul>
                             </div>
+                            </li>
+                            </ul>
                         </div>
-                    </nav>
                 </div>
-            </div>
-        </div>
+    </nav>
+    </div>
+    </div>
+    </div>
     </nav>
 
     <!-- HERO -->
     <div id="hero" class="uk-position-relative">
-        <div class="zelcoreblack uk-section uk-flex uk-flex-middle uk-light" uk-height-viewport="offset-top: true; min-height: 730">
+        <div class="zelcoreblack uk-section uk-flex uk-flex-middle uk-light"
+            uk-height-viewport="offset-top: true; min-height: 730">
             <div class="uk-width-1-1">
                 <div class="uk-container">
                     <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
@@ -117,7 +129,8 @@
                             <img class="uk-width-medium" src="./img/ZelCore+-Txt-White.svg">
                             <div>
                                 <h1 class="uk-heading-primary uk-text-center">More advanced than ever</h1>
-                                <a href="#features" uk-scroll><button class="uk-button uk-button-primary rounded">Read more</button></a>
+                                <a href="#features" uk-scroll><button class="uk-button uk-button-primary rounded">Read
+                                        more</button></a>
                             </div>
                         </div>
                     </div>
@@ -125,16 +138,16 @@
             </div>
         </div>
     </div>
-    
+
     <div class="uk-position-relative" style="z-index:998">
         <div class="uk-position-absolute uk-position-center zelcorePosition uk-visible@s">
-            <img class="desktopImg" src="./img/zelcore/dexScreen.jpg">
+            <img class="desktopImg" src="./img/zelcore/Exchange.jpg">
         </div>
         <div class="uk-position-absolute uk-position-center zelcorePosition uk-hidden@s">
             <img src="./img/zelcore/Login-Mobile.png">
         </div>
     </div>
-    
+
     <section id="downloads" class="uk-section whiteBackground uk-section-large uk-flex uk-flex-middle">
         <div class="uk-width-1-1">
             <div class="uk-container uk-margin-xlarge-top"></div>
@@ -147,21 +160,24 @@
                                 <div class="uk-card uk-card-hover uk-card-secondary uk-card-body uk-text-center">
                                     <h3 class="uk-card-title">1 Year Plan</h3>
                                     <p>Get 2 Month Free</p>
-                                    <a href="zel:?page=zelcoreplus&plan=1"><button class="uk-button uk-button-primary rounded">Choose</button></a>
+                                    <a href="zel:?page=zelcoreplus&plan=1"><button
+                                            class="uk-button uk-button-primary rounded">Choose</button></a>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-hover uk-card-secondary uk-card-body uk-text-center">
                                     <h3 class="uk-card-title">3 Month Plan</h3>
                                     <p>Get a week free</p>
-                                    <a href="zel:?page=zelcoreplus&plan=2"><button class="uk-button uk-button-primary rounded">Choose</button></a>
+                                    <a href="zel:?page=zelcoreplus&plan=2"><button
+                                            class="uk-button uk-button-primary rounded">Choose</button></a>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-hover uk-card-secondary uk-card-body uk-text-center">
                                     <h3 class="uk-card-title">1 Month Plan</h3>
                                     <p>Try it out!</p>
-                                    <a href="zel:?page=zelcoreplus&plan=3"><button class="uk-button uk-button-primary rounded">Choose</button></a>
+                                    <a href="zel:?page=zelcoreplus&plan=3"><button
+                                            class="uk-button uk-button-primary rounded">Choose</button></a>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +187,7 @@
         </div>
     </section>
 
-    
+
     <!-- FEATURES -->
     <section id="features" class="uk-section uk-flex uk-flex-middle">
         <div class="uk-width-1-1">
@@ -195,58 +211,69 @@
         </div>
     </section>
 
-    <section id="feature1" class="zelcoreblack uk-section uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="feature1" class="zelcoreblack uk-section uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@s uk-first-column zelcoreFeatures">
                         <img class="uk-hidden@m" src="./img/zelcore/MoreExchanges.jpg">
-                        <h1 class="uk-heading-primary uk-margin uk-width-large@m">API Integrations to Major Exchanges</h1>
+                        <h1 class="uk-heading-primary uk-margin uk-width-large@m">API Integrations to Major Exchanges
+                        </h1>
                         <h2 class="uk-h2 uk-margin uk-width-large@m">Binance, Bittrex & Kraken</h2>
-                        <h2 class="uk-h3 uk-margin-medium uk-width-large@m">Trade directly on the top exchanges right inside ZelCore+, full TradingView features, with 1-click withdrawal, and more. </h2>
+                        <h2 class="uk-h3 uk-margin-medium uk-width-large@m">Trade directly on the top exchanges right
+                            inside ZelCore+, full TradingView features, with 1-click withdrawal, and more. </h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="feature2" class="zelcoreblack uk-section uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="feature2" class="zelcoreblack uk-section uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@s uk-first-column zelcoreFeatures">
                         <img class="uk-hidden@m" src="./img/zelcore/News.jpg">
                         <h1 class="uk-heading-primary uk-margin uk-width-large@m">Aggregated News Sources</h1>
-                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">No need to switch between multiple apps to view the day's important crypto news.</h1>
+                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">No need to switch between multiple apps to
+                            view the day's important crypto news.</h1>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="feature3" class="zelcoreblack uk-section uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="feature3" class="zelcoreblack uk-section uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@m uk-first-column zelcoreFeatures">
                         <img class="uk-hidden@m" src="./img/zelcore/PortfolioTracker.jpg">
                         <h1 class="uk-heading-primary uk-margin uk-width-large@m">Portfolio Tracker</h1>
-                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">Add all your assets and trades into the handy tracker and visualize your total portfolio value.</h1>
+                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">Add all your assets and trades into the
+                            handy tracker and visualize your total portfolio value.</h1>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="feature4" class="zelcoreblack uk-section uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="feature4" class="zelcoreblack uk-section uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@m uk-first-column zelcoreFeatures">
                         <img class="uk-hidden@m" src="./img/zelcore/Wallets.jpg">
-                        <h1 id="featurestop" class="uk-heading-primary uk-margin uk-width-large@m">More Lite Addresses</h1>
+                        <h1 id="featurestop" class="uk-heading-primary uk-margin uk-width-large@m">More Lite Addresses
+                        </h1>
                         <h2 class="uk-h2 uk-margin uk-width-large@m">for All Assets + PK Import</h2>
-                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">ZelCore+ generates a total of 6 lite addresses per asset and allows importing of private keys for easy access to prior addresses.</h1>
+                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">ZelCore+ generates a total of 6 lite
+                            addresses per asset and allows importing of private keys for easy access to prior addresses.
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -259,21 +286,23 @@
             <div class="uk-container">
                 <h1 class="uk-heading-primary uk-margin uk-text-center"><span class="zel">Other</span> Features</h1>
                 <div class="uk-grid-divider uk-grid-margin uk-grid" uk-grid>
-                    <div class="uk-width-expand@m uk-first-column">         
+                    <div class="uk-width-expand@m uk-first-column">
                         <h2 class="uk-h2 uk-text-center">Additional Features</h2>
                         <ul>
                             <li>Export CSV files with transaction history including historic pricing.</li>
                             <li>Larger memo/note fields for transactions</li>
                         </ul>
                     </div>
-                    <div class="uk-width-expand@m">           
+                    <div class="uk-width-expand@m">
                         <h2 class="uk-h2 uk-text-center">Upcoming Features</h2>
                         <ul>
                             <li>Crypto Calculator with current market price preloaded.</li>
-                            <li>Total asset values displayed from ZelCore, exchanges, and offline wallets in a single location.</li>
+                            <li>Total asset values displayed from ZelCore, exchanges, and offline wallets in a single
+                                location.</li>
                             <li>Purchase curated crypto funds, delivered right to your ZelCore addresses</li>
                             <li>Linking to technical investment tools such as leverage, shorting, dark pools, etc.</li>
-                            <li>Customized notifications via email/SMS/Telegram - get notified of trades/transactions by address, ZelCore login attempts, etc.</li>
+                            <li>Customized notifications via email/SMS/Telegram - get notified of trades/transactions by
+                                address, ZelCore login attempts, etc.</li>
                         </ul>
                     </div>
                 </div>
@@ -337,34 +366,55 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
     <script>
+        /* PREVENT CLICKJACKING */
+        if (self == top) {
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.style.display = "block";
+        } else {
+            top.location = self.location;
+        }
+    </script>
+    <script>
         // init controller
         var controller = new ScrollMagic.Controller();
-    
+
         // build scenes
-        new ScrollMagic.Scene({triggerElement: "#feature2"})
-                        .setClassToggle("#featureImage1", "hidden")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature3"})
-                        .setClassToggle("#featureImage1", "hidden")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature4"})
-                        .setClassToggle("#featureImage1", "hidden")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature2"})
-                        .setClassToggle("#featureImage2", "show")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature3"})
-                        .setClassToggle("#featureImage3", "show")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature4"})
-                        .setClassToggle("#featureImage4", "show")
-                        .duration("200%")
-                        .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature2"
+            })
+            .setClassToggle("#featureImage1", "hidden")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature3"
+            })
+            .setClassToggle("#featureImage1", "hidden")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature4"
+            })
+            .setClassToggle("#featureImage1", "hidden")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature2"
+            })
+            .setClassToggle("#featureImage2", "show")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature3"
+            })
+            .setClassToggle("#featureImage3", "show")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature4"
+            })
+            .setClassToggle("#featureImage4", "show")
+            .duration("200%")
+            .addTo(controller);
     </script>
 
 </body>

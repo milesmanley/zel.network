@@ -17,8 +17,14 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        body {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,8 +32,7 @@
     <nav class="uk-position-relative uk-navbar-container">
         <div class="uk-container">
             <div uk-navbar class="uk-visible@s">
-                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                        width="100"></a>
+                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 <ul class="uk-navbar-nav">
                     <li><a href="./zel/">Currency</a></li>
                     <li><a href="./project/zelcore/">Zel<span>Core</span></a></li>
@@ -38,8 +43,7 @@
             </div>
             <div uk-navbar="boundary-align: true; align: left; dropbar: true;" class="uk-hidden@s">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                            width="100"></a>
+                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
@@ -66,7 +70,8 @@
         <div class="uk-position-top">
             <div class="subnav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
                 <nav class="uk-navbar-container">
-                    <div class="uk-container uk-padding-remove" uk-navbar="boundary-align: true; align: left; dropbar: true">
+                    <div class="uk-container uk-padding-remove"
+                        uk-navbar="boundary-align: true; align: left; dropbar: true">
                         <div class="uk-navbar-left pl-15">
                             <ul class="uk-navbar-nav">
                                 <li><a href="./project/zelcore/"><img src="./img/ZelCore-Txt.svg" width="120"></a></li>
@@ -80,7 +85,9 @@
                                 <li><a href="#support" uk-scroll>Support</a></li>
                                 <li><a href="#getlisted" uk-scroll>Get Listed</a></li>
                                 <li><a href="./project/zelcore/zelcore+.html">ZelCore+</a></li>
-                                <li><a href="./project/zelcore/download.html"><button class="uk-button uk-button-small zelcoreblack rounded">Download</button></a></li>
+                                <li><a href="./project/zelcore/download.html"><button
+                                            class="uk-button uk-button-small zelcoreblack rounded">Download</button></a>
+                                </li>
                             </ul>
                         </div>
                         <div class="uk-navbar-right pr-15 uk-hidden@m">
@@ -98,7 +105,8 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="./project/zelcore/download.html"><button class="uk-button tiny zelcoreblack rounded">Download</button></a></li>
+                                <li><a href="./project/zelcore/download.html"><button
+                                            class="uk-button tiny zelcoreblack rounded">Download</button></a></li>
                             </ul>
                         </div>
                     </div>
@@ -109,31 +117,34 @@
 
     <!-- HERO -->
     <div class="uk-position-relative" style="z-index: -1">
-        <div class="zelcoreblack uk-section uk-flex uk-flex-middle uk-light" uk-height-viewport="offset-top: true; min-height: 720">
+        <div class="zelcoreblack uk-section uk-flex uk-flex-middle uk-light"
+            uk-height-viewport="offset-top: true; min-height: 720">
             <div class="uk-width-1-1 uk-position-fixed">
                 <div class="uk-container">
                     <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                         <div class="uk-width-1-1@m uk-first-column uk-text-center fixedZelCoreTxt">
                             <img class="uk-width-medium" src="./img/ZelCore-Txt-White.svg">
-                            <h1 class="uk-heading-primary uk-text-center uk-visible@s">One-stop platform for all your crypto custody needs</h1>
-                            <h1 class="uk-h3 uk-text-center uk-hidden@s">One-stop platform for all your crypto custody needs</h1>
+                            <h1 class="uk-heading-primary uk-text-center uk-visible@s">One-stop platform for all your
+                                crypto custody needs</h1>
+                            <h1 class="uk-h3 uk-text-center uk-hidden@s">One-stop platform for all your crypto custody
+                                needs</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- ABOUT -->
     <div class="uk-position-relative">
         <div class="uk-position-absolute uk-position-center zelcorePosition uk-visible@s">
-            <img class="desktopImg" src="./img/zelcore/Portfolio-colorful.jpg">
+            <img class="desktopImg" src="./img/zelcore/Portfolio.jpg">
         </div>
         <div class="uk-position-absolute uk-position-center zelcorePosition uk-hidden@s">
             <img src="./img/zelcore/Login-Mobile.png">
         </div>
     </div>
-    
+
     <section id="about" class="uk-section-muted uk-section uk-section-large uk-flex uk-flex-middle">
         <div class="uk-width-1-1">
             <div class="uk-container uk-margin-xlarge-top"></div>
@@ -143,18 +154,21 @@
                     <div class="uk-width-1-1@m uk-first-column uk-text-center">
                         <h1 class="uk-heading-primary uk-margin">About <span class="zel">zel</span>core</h1>
                         <div class="uk-margin-medium uk-width-xlarge uk-margin-auto">
-                            ZelCore is a multi asset platform and wallet, free-to-use by all, with top quick-swap exchanges. ZelCore+ unlocks advanced trading functionality with API integrations to the top exchanges + TradingView.
+                            ZelCore is a multi asset platform and wallet, free-to-use by all, with top quick-swap
+                            exchanges. ZelCore+ unlocks advanced trading functionality with API integrations to the top
+                            exchanges + TradingView.
                         </div>
                     </div>
                     <div class="uk-width-1-1@m uk-first-column uk-text-center">
-                        <h3>Supporting more than 100+ assets including</h3>
+                        <h3>Supporting more than 200+ assets including</h3>
                         <img src="./img/assets/BTC.svg" class="smallImg" />
                         <img src="./img/assets/TUSD.svg" class="smallImg" />
                         <img src="./img/assets/ZEL.svg" class="smallImg" />
                         <img src="./img/assets/BNB.svg" class="smallImg" />
                         <img src="./img/assets/ETH.svg" class="smallImg" />
                         <br>
-                        <a href="#assetsModal" uk-toggle><button class="uk-button zelcoreblack rounded uk-margin-top">And many more...</button></a>
+                        <a href="#assetsModal" uk-toggle><button
+                                class="uk-button zelcoreblack rounded uk-margin-top">And many more...</button></a>
                     </div>
                 </div>
             </div>
@@ -181,47 +195,56 @@
         </div>
     </section>
 
-    <section id="feature1" class="zelcoreblack uk-section uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="feature1" class="zelcoreblack uk-section uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@m uk-first-column zelcoreFeatures">
                         <img class="uk-hidden@m" src="./img/zelcore/Login-Mobile.png">
                         <h1 class="uk-heading-primary uk-margin uk-width-large@m">Support for multiple accounts</h1>
-                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">Our login system allows you to have multiple encrypted wallets and accounts 
-                        on the same device and access the same account on multiple devices while maintaining complete privacy as we don't store or transmit any user personal data. 
-                        Privacy is something Zel strongly believe in.</h1>
+                        <h1 class="uk-h3 uk-margin-medium uk-width-large@m">Our login system allows you to have multiple
+                            encrypted wallets and accounts
+                            on the same device and access the same account on multiple devices while maintaining
+                            complete privacy as we don't store or transmit any user personal data.
+                            Privacy is something Zel strongly believe in.</h1>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="feature2" class="zelcoreblack uk-section uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="feature2" class="zelcoreblack uk-section uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@m uk-first-column zelcoreFeatures">
                         <img class="uk-hidden@m" src="./img/zelcore/Portfolio-Mobile.png">
                         <h1 class="uk-heading-primary uk-margin uk-width-large@m">Multi-Asset Encrypted Wallet</h1>
-                        <h1 class="uk-h3 uk-width-large@m">ZelCore keeps your assets safe. With support for 100+ assets including $ZEL, $BTC, 
-                        $LTC, $ETH, $XMR, $ZEC, $USDT, and many more.</h1>
+                        <h1 class="uk-h3 uk-width-large@m">ZelCore keeps your assets safe. With support for 100+ assets
+                            including $ZEL, $BTC,
+                            $LTC, $ETH, $XMR, $ZEC, $USDT, and many more.</h1>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="feature3" class="zelcoreblack uk-section uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="feature3" class="zelcoreblack uk-section uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@s uk-first-column zelcoreFeatures">
                         <img class="uk-hidden@m" src="./img/zelcore/Exchanges-Mobile.png">
-                        <h1 id="featurestop" class="uk-heading-primary uk-margin uk-width-large@m">Built-in Exchanges</h1>
-                        <h1 class="uk-h3 uk-width-large@m">ZelCore integrates built-in quick swap exchanges directly inside of ZelCore Desktop & Mobile. 
-                        But if you mean business and want to take on some real trading, check out 
-                        ZelCore+ which offers full API integration to your favourite top exchanges like Binance, Bittrex, and Kraken. </h1>
+                        <h1 id="featurestop" class="uk-heading-primary uk-margin uk-width-large@m">Built-in Exchanges
+                        </h1>
+                        <h1 class="uk-h3 uk-width-large@m">ZelCore integrates built-in quick swap exchanges directly
+                            inside of ZelCore Desktop & Mobile.
+                            But if you mean business and want to take on some real trading, check out
+                            ZelCore+ which offers full API integration to your favourite top exchanges like Binance,
+                            Bittrex, and Kraken. </h1>
                     </div>
                 </div>
             </div>
@@ -235,8 +258,10 @@
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@m uk-first-column">
                         <h1 class="uk-heading-primary uk-margin uk-text-center">Road<span class="zel">map</span></h1>
-                        <h1 class="uk-h1 uk-margin-remove-top uk-text-center">Some things upcoming in both ZelCore and ZelCore+</h1>
-                        <div class="uk-margin-medium uk-width-xlarge uk-margin-auto uk-text-center">Some of this stuff is really exciting other stuff is moderately exciting.</div>
+                        <h1 class="uk-h1 uk-margin-remove-top uk-text-center">Some things upcoming in both ZelCore and
+                            ZelCore+</h1>
+                        <div class="uk-margin-medium uk-width-xlarge uk-margin-auto uk-text-center">Some of this stuff
+                            is really exciting other stuff is moderately exciting.</div>
                         <div id="cd-timeline" class="cd-container">
                             <div class="cd-timeline-block">
                                 <div class="cd-timeline-img cd-green">
@@ -251,43 +276,67 @@
                                 <div class="cd-timeline-img cd-green">
                                     <i class="far fa-calendar-check fa-2x"></i>
                                 </div>
-                
+
                                 <div class="cd-timeline-content">
                                     <h2 class="uk-margin-remove">ZelCore Mobile</h2>
                                     <span class="cd-date">Q4 2018</span>
                                 </div>
                             </div>
-                
+
                             <div class="cd-timeline-block">
-                                <div class="cd-timeline-img cd-yellow">
-                                    <i class="far fa-calendar-alt fa-2x"></i>
+                                <div class="cd-timeline-img cd-green">
+                                    <i class="far fa-calendar-check fa-2x"></i>
                                 </div>
-                
+
                                 <div class="cd-timeline-content">
                                     <h2 class="uk-margin-remove">ZelCore+</h2>
                                     <span class="cd-date">30.4.2019</span>
                                 </div>
                             </div>
-                
+
                             <div class="cd-timeline-block">
-                                <div class="cd-timeline-img cd-red">
-                                    <i class="far fa-calendar-alt fa-2x"></i>
+                                <div class="cd-timeline-img cd-green">
+                                    <i class="far fa-calendar-check fa-2x"></i>
                                 </div>
-                
+
                                 <div class="cd-timeline-content">
-                                    <h2 class="uk-margin-remove">ZelEx</h2>
-                                    <span class="cd-date">Q4 2019</span>
+                                    <h2 class="uk-margin-remove">ZelCore v3 for Desktop</h2>
+                                    <p>Major UI Changes</p>
+                                    <span class="cd-date">DEC 2019</span>
                                 </div>
                             </div>
-                
+
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img cd-yellow">
+                                    <i class="far fa-calendar-alt fa-2x"></i>
+                                </div>
+
+                                <div class="cd-timeline-content">
+                                    <h2 class="uk-margin-remove">ZelCore v3 for Mobile</h2>
+                                    <p>Major UI Changes</p>
+                                    <span class="cd-date">Q1 2020</span>
+                                </div>
+                            </div>
+
                             <div class="cd-timeline-block">
                                 <div class="cd-timeline-img cd-red">
                                     <i class="far fa-calendar-alt fa-2x"></i>
                                 </div>
-                
+
+                                <div class="cd-timeline-content">
+                                    <h2 class="uk-margin-remove">ZelEx</h2>
+                                    <span class="cd-date">Q1 2020</span>
+                                </div>
+                            </div>
+
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img cd-red">
+                                    <i class="far fa-calendar-alt fa-2x"></i>
+                                </div>
+
                                 <div class="cd-timeline-content">
                                     <h2 class="uk-margin-remove">ZelApps</h2>
-                                    <span class="cd-date">Q1 2020</span>
+                                    <span class="cd-date">Q2 2020</span>
                                 </div>
                             </div>
                         </div>
@@ -303,21 +352,24 @@
             <img src="./img/zelcore/Support.png">
         </div>
     </div>
-    <section id="support" class="uk-section zelcoreblack uk-section-large uk-flex uk-flex-middle" uk-height-viewport="offset-top: true;">
+    <section id="support" class="uk-section zelcoreblack uk-section-large uk-flex uk-flex-middle"
+        uk-height-viewport="offset-top: true;">
         <div class="uk-width-1-1 uk-light">
             <div class="uk-container">
                 <div class="uk-container uk-margin-xlarge-top uk-visible@s"></div>
                 <h1 class="uk-heading-primary uk-margin uk-text-center">Support</h1>
                 <div class="uk-grid-divider uk-grid-margin uk-grid" uk-grid>
-                    <div class="uk-width-expand@m uk-first-column">         
+                    <div class="uk-width-expand@m uk-first-column">
                         <h3 class="uk-h3 uk-text-center">Need help?</h3>
-                        <div class="uk-text-large uk-margin uk-text-center">Head over to <a href="https://discord.io/zel" target="_blank">Discord</a> and we'll help you</div>
+                        <div class="uk-text-large uk-margin uk-text-center">Head over to <a
+                                href="https://discord.io/zel" target="_blank">Discord</a> and we'll help you</div>
                         <!-- <div class="uk-margin uk-text-center">Or email us at <a href="mailto:support@zelcore.io">support@zelcore.io</a></div> -->
                     </div>
-                    <div class="uk-width-expand@m">           
+                    <div class="uk-width-expand@m">
                         <h3 class="uk-h3 uk-text-center">Assets in ZelCore</h3>
-                        <div class="uk-margin uk-text-center">    
-                            <a class="uk-button uk-button-primary rounded" href="#assetsModal" uk-toggle>See the list</a>
+                        <div class="uk-margin uk-text-center">
+                            <a class="uk-button uk-button-primary rounded" href="#assetsModal" uk-toggle>See the
+                                list</a>
                         </div>
                     </div>
                 </div>
@@ -351,24 +403,28 @@
                 <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
                     <div class="uk-width-1-1@m uk-first-column uk-text-center">
                         <h1 class="uk-heading-primary uk-margin">Are we missing one of your favourite assets?</h1>
-                        <div class="uk-margin-medium uk-width-xlarge uk-margin-auto">If you have an asset you would like to see listed in the ZelCore platform, we'll be happy to hear it.</div>
+                        <div class="uk-margin-medium uk-width-xlarge uk-margin-auto">If you have an asset you would like
+                            to see listed in the ZelCore platform, we'll be happy to hear it.</div>
                         <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
                             <div>
                                 <div class="uk-card uk-card-default uk-card-body">
                                     <h2>Raven Asset</h2>
-                                    <a href="./project/zelcore/listravenasset.html"><button class="uk-button zelcoreblack rounded">Get your asset listed</button></a>
+                                    <a href="./project/zelcore/listravenasset.html"><button
+                                            class="uk-button zelcoreblack rounded">Get your asset listed</button></a>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-default uk-card-body">
                                     <h2>ERC-20</h2>
-                                    <a href="./project/zelcore/listerc20.html"><button class="uk-button zelcoreblack rounded">Get your token listed</button></a>
+                                    <a href="./project/zelcore/listerc20.html"><button
+                                            class="uk-button zelcoreblack rounded">Get your token listed</button></a>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-default uk-card-body">
                                     <p>Not a Raven Asset or ERC-20 Token? Dont worry, we got you covered too</p>
-                                    <a href="mailto:info@zelcore.io"><button class="uk-button zelcoreblack rounded">Let us know</button></a>
+                                    <a href="mailto:info@zelcore.io"><button class="uk-button zelcoreblack rounded">Let
+                                            us know</button></a>
                                 </div>
                             </div>
                         </div>
@@ -433,38 +489,57 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <script>
+        /* PREVENT CLICKJACKING */
+        if (self == top) {
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.style.display = "block";
+        } else {
+            top.location = self.location;
+        }
+    </script>
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-    <script src="./project/zelcore/coinsSimple.js" ></script>
+    <script src="./project/zelcore/coinsSimple.js"></script>
     <script>
         // init controller
         var controller = new ScrollMagic.Controller();
-    
+
         // build scenes
-        new ScrollMagic.Scene({triggerElement: "#feature2"})
-                        .setClassToggle("#featureImage1", "hidden")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature3"})
-                        .setClassToggle("#featureImage1", "hidden")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature2"})
-                        .setClassToggle("#featureImage2", "show")
-                        .duration("100%")
-                        .addTo(controller);
-        new ScrollMagic.Scene({triggerElement: "#feature3"})
-                        .setClassToggle("#featureImage3", "show")
-                        .duration("200%")
-                        .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature2"
+            })
+            .setClassToggle("#featureImage1", "hidden")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature3"
+            })
+            .setClassToggle("#featureImage1", "hidden")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature2"
+            })
+            .setClassToggle("#featureImage2", "show")
+            .duration("100%")
+            .addTo(controller);
+        new ScrollMagic.Scene({
+                triggerElement: "#feature3"
+            })
+            .setClassToggle("#featureImage3", "show")
+            .duration("200%")
+            .addTo(controller);
     </script>
     <script>
         function displayAssets() {
             var output = [];
             for (var i in coins) {
-                output += "<tr><td><img src='" + coins[i].logolink + "' class='smallImg'></td><td>" + coins[i].name + "</td><td class='uk-visible@s'><a href='" + coins[i].explorer + "' class='uk-button uk-button-primary rounded' target='_blank'>Explorer</a></td></tr>";
+                output += "<tr><td><img src='" + coins[i].logolink + "' class='smallImg'></td><td>" + coins[i].name +
+                    "</td><td class='uk-visible@s'><a href='" + coins[i].explorer +
+                    "' class='uk-button uk-button-primary rounded' target='_blank'>Explorer</a></td></tr>";
             }
-            document.getElementById("allAssets").innerHTML=output;
+            document.getElementById("allAssets").innerHTML = output;
         }
         window.onload = displayAssets;
     </script>

@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        body {
+            display: none;
+        }
+    </style>
 
     <!-- Content Loading -->
     <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
@@ -30,8 +35,7 @@
     <nav class="uk-position-relative uk-navbar-container">
         <div class="uk-container">
             <div uk-navbar class="uk-visible@s">
-                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                        width="100"></a>
+                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 <ul class="uk-navbar-nav">
                     <li><a href="./zel/">Currency</a></li>
                     <li><a href="./project/zelcore/">Zel<span>Core</span></a></li>
@@ -42,8 +46,7 @@
             </div>
             <div uk-navbar="boundary-align: true; align: left; dropbar: true" class="uk-hidden@s">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                            width="100"></a>
+                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
@@ -130,29 +133,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
     <script>
-        $(document).ready(function() {
+        /* PREVENT CLICKJACKING */
+        if (self == top) {
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.style.display = "block";
+        } else {
+            top.location = self.location;
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
             var url = 'https://medium.com/feed/@ZelOfficial';
             $.ajax({
                 type: 'GET',
                 async: false,
                 url: "https://api.rss2json.com/v1/api.json?rss_url=" + url,
                 dataType: 'jsonp',
-                beforeSend: function() {
+                beforeSend: function () {
                     var before = [];
                     for (var i = 0; i < 6; i++) {
-                        before += "<div><div class='uk-card uk-card-hover uk-card-default'><div class='uk-card-media-top'>";
+                        before +=
+                            "<div><div class='uk-card uk-card-hover uk-card-default'><div class='uk-card-media-top'>";
                         before += "<div class='ph-picture'></div>";
                         before += "</div><div class='uk-card-body ph-row'>";
-                        before += "<div class='ph-col-6 big'></div><div class='ph-col-4 empty big'></div>";
+                        before +=
+                            "<div class='ph-col-6 big'></div><div class='ph-col-4 empty big'></div>";
                         before += "<div class='ph-col-4'></div>"
                         before += "</div></div></div>";
                     }
-                    document.getElementById("rssFeed").innerHTML=before;
+                    document.getElementById("rssFeed").innerHTML = before;
                 },
-                success: function(data) {
+                success: function (data) {
                     var output = [];
                     for (var i in data.items) {
-                        output += "<div><a href='" + data.items[i].link + "' target='_blank'><div class='uk-card uk-card-hover uk-card-default'><div class='uk-card-media-top'>";
+                        output += "<div><a href='" + data.items[i].link +
+                            "' target='_blank'><div class='uk-card uk-card-hover uk-card-default'><div class='uk-card-media-top'>";
                         output += "<img src='" + data.items[i].thumbnail + "' alt=''>";
                         output += "</div><div class='uk-card-body'>";
                         output += "<h3 class='uk-card-title'>" + data.items[i].title + "</h3>";
@@ -161,7 +176,7 @@
                         output += "<p>" + dt + "</p>"
                         output += "</div></div></a></div>";
                     }
-                    document.getElementById("rssFeed").innerHTML=output;
+                    document.getElementById("rssFeed").innerHTML = output;
                 }
             });
         });
