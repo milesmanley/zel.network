@@ -20,11 +20,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
-    <style>
-        body {
-            display: none;
-        }
-    </style>
 
     <!-- ScrollMagic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
@@ -104,18 +99,20 @@
                                                 <li><a href="./project/zelcore/#support">Support</a></li>
                                                 <li><a href="./project/zelcore/#getlisted">Get Listed</a></li>
                                             </ul>
-                                    <li><a href="./project/zelcore/download.html"><button
-                                                class="uk-button uk-button-small zelcoreblack rounded">Download</button></a>
+                                            <ul>
+                                                <li><a href="./project/zelcore/download.html"><button
+                                                            class="uk-button uk-button-small zelcoreblack rounded">Download</button></a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </li>
+                                </ul>
                             </div>
-                            </li>
-                            </ul>
                         </div>
+                    </nav>
                 </div>
-    </nav>
-    </div>
-    </div>
-    </div>
+            </div>
+        </div>
     </nav>
 
     <!-- HERO -->
@@ -193,7 +190,7 @@
         <div class="uk-width-1-1">
             <div class="uk-container">
                 <h1 class="uk-heading-primary uk-text-left">Features</h1>
-                <div class="zelcoreFeatures uk-visible@m" uk-sticky="offset: 200; bottom: #featurestop">
+                <div id="stickyImgs" class="zelcoreFeatures uk-visible@m" uk-sticky="bottom: #featurestop">
                     <div class="uk-position-absolute">
                         <img id="featureImage1" class="desktopImg" src="./img/zelcore/MoreExchanges.jpg">
                     </div>
@@ -365,15 +362,7 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-    <script>
-        /* PREVENT CLICKJACKING */
-        if (self == top) {
-            var theBody = document.getElementsByTagName('body')[0];
-            theBody.style.display = "block";
-        } else {
-            top.location = self.location;
-        }
-    </script>
+    <script src="./js/main.js"></script>
     <script>
         // init controller
         var controller = new ScrollMagic.Controller();
@@ -416,7 +405,12 @@
             .duration("200%")
             .addTo(controller);
     </script>
-
+    <script>
+        const windowHeight = window.innerHeight
+        let sticky = UIkit.sticky('#stickyImgs', {
+            offset: (windowHeight / 2) - 233,
+        });
+    </script>
 </body>
 
 </html>
