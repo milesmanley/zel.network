@@ -32,8 +32,7 @@
     <nav class="uk-position-relative uk-navbar-container">
         <div class="uk-container">
             <div uk-navbar class="uk-visible@s">
-                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                        width="100"></a>
+                <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 <ul class="uk-navbar-nav">
                     <li><a href="./zel/">Currency</a></li>
                     <li><a href="./project/zelcore/">Zel<span>Core</span></a></li>
@@ -44,8 +43,7 @@
             </div>
             <div uk-navbar="boundary-align: true; align: left; dropbar: true" class="uk-hidden@s">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg"
-                            width="100"></a>
+                    <a class="uk-navbar-item uk-light" href="./"><img src="./img/Zel-Txt-White.svg" width="100"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
@@ -67,12 +65,13 @@
         </div>
     </nav>
 
-        <!-- SUBNAV -->
+    <!-- SUBNAV -->
     <div class="uk-position-relative onTop">
         <div class="uk-position-top">
             <div class="subnav" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 80px;">
                 <nav class="uk-navbar-container">
-                    <div class="uk-container uk-padding-remove" uk-navbar="boundary-align: true; align: left; dropbar: true">
+                    <div class="uk-container uk-padding-remove"
+                        uk-navbar="boundary-align: true; align: left; dropbar: true">
                         <div class="uk-navbar-left pl-15">
                             <ul class="uk-navbar-nav">
                                 <li><a href="./project/zelcore/"><img src="./img/ZelCore-Txt.svg" width="120"></a></li>
@@ -83,7 +82,9 @@
                                 <li><a href="#about" uk-scroll>About</a></li>
                                 <li><a href="#options" uk-scroll>List</a></li>
                                 <li><a href="./project/zelcore/zelcore+.html">ZelCore+</a></li>
-                                <li><a href="./project/zelcore/download.html"><button class="uk-button uk-button-small zelcoreblack rounded">Download</button></a></li>
+                                <li><a href="./project/zelcore/download.html"><button
+                                            class="uk-button uk-button-small zelcoreblack rounded">Download</button></a>
+                                </li>
                             </ul>
                         </div>
                         <div class="uk-navbar-right pr-15 uk-hidden@m">
@@ -98,7 +99,8 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="./project/zelcore/download.html"><button class="uk-button tiny zelcoreblack rounded">Download</button></a></li>
+                                <li><a href="./project/zelcore/download.html"><button
+                                            class="uk-button tiny zelcoreblack rounded">Download</button></a></li>
                             </ul>
                         </div>
                     </div>
@@ -128,11 +130,13 @@
     </div>
 
     <!-- ABOUT -->
-    <section id="about" class="uk-background-muted uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large">
+    <section id="about"
+        class="uk-background-muted uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large">
         <div class="uk-container">
             <div class="uk-grid-collapse uk-grid" uk-grid>
                 <div class="uk-width-expand@m uk-first-column">
-                    <h1 class="uk-heading-primary uk-text-center">Have you created a <span class="zel">Raven</span>Asset?</h1>
+                    <h1 class="uk-heading-primary uk-text-center">Have you created a <span
+                            class="zel">Raven</span>Asset?</h1>
                     <div class="uk-margin-medium uk-width-large uk-margin-auto uk-text-center">
                         And want to promote your asset, business or brand?
                     </div>
@@ -156,7 +160,8 @@
                     <canvas width="600" height="500"></canvas>
                 </div>
                 <div class="ravenFrame">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdAtxVAMtxSCEP8e3GvrH4iY4oe3BYsOY-4t8GMsbyoHaU0uw/viewform"></iframe>
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdAtxVAMtxSCEP8e3GvrH4iY4oe3BYsOY-4t8GMsbyoHaU0uw/viewform"></iframe>
                 </div>
             </div>
         </div>
@@ -217,16 +222,7 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-    <script>
-        /* PREVENT CLICKJACKING */
-        if (self == top) {
-            var theBody = document.getElementsByTagName('body')[0];
-            theBody.style.display = "block";
-        } else {
-            top.location = self.location;
-        }
-    </script>
-
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
